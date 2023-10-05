@@ -1,0 +1,20 @@
+
+<script type="text/javascript">
+class Product{
+	constructor(itemName, price, discount, productCode){
+		 this.itemName = itemName;
+		 this.price = price;
+		 this.discount = discount;
+		 this.productCode = productCode;
+	}
+
+	get getDiscountValue(){
+		return this.discount;
+	}
+	set setDiscountValue(value){
+		this.discount = value
+	}
+}
+
+let pencil = new Product('pencil', 20, 2, 'p10');
+</script>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="d:/bootstrap/jquery.min.js"></script>
+</head>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		// $("#penal2").click(function()
+		// {
+		// 	$("#penal1").slideToggle("slow");
+		// });
+		// $("#penal2").click(function()
+		// {
+		// 	$("#penal1").slideDown();
+		// });
+		$("#penal1").click(function()
+			{
+				$("#penal2").slideUp("slow");
+			});
+	});
+</script>
+<body>
+	<style type="text/css">
+		#penal1,#penal2
+		{
+			padding: 5px;
+			text-align: center;
+			background-color: grey;
+			border: 1px solid black;
+			color: white;
+		}
+		#penal2
+		{
+			/*display: none;*/
+			padding: 50px;
+		}
+	</style>
+	
+	<div id="penal1">click to slide down panal</div>
+	<div id="penal2">slide down panal</div>
+
+</body>
+</html>

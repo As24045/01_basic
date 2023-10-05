@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+	function abc() {
+		var a = parseInt(document.getElementById('a').value);
+		var b = parseInt(document.getElementById('b').value);
+		var c = a+b;
+		document.getElementById('c').value = c;
+		document.getElementById('ans').innerHTML = c;
+		document.getElementById('ans2').innerHTML = c;
+	}
+</script>
+<body>
+	<input type="text" id="a" name="aa">
+	<input type="text" id="b" name="aa">
+	<button onclick="abc()">click</button>
+	<input type="text" id="c" name="aa">
+	<p>Result = </p>
+	<b id="ans"></b>
+	<div id="ans2"></div>
+</body>
+</html>

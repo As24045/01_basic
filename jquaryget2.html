@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="d:/bootstrap/jquery.min.js"></script>
+</head>
+<script type="text/javascript">
+	$(document).ready(function()
+		{
+			// $("button").click(function()
+			// 	{
+			// 		alert("value:" + $("#test").val());
+			// 	});
+
+			$("button").click(function()
+				{
+					alert($("#test").attr("style"));
+				});
+		});
+</script>
+<body>
+		<p>Name: <input style="color: red;" type="text" id="test" value="Mickey Mouse"></p>
+        <button>Show Value</button>
+</body>
+</html>

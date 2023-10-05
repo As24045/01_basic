@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="d:/bootstrap/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+			{
+				$("button").click(function()
+					{
+						$("p").remove(".test, .demo")
+					});
+			});
+	</script>
+</head>
+<body>
+	<p>This is a paragraph.</p>
+	<p class="test">This is another paragraph.</p>
+	<p class="test">This is another paragraph.</p>
+	<p class="demo">This is p element with class="demo".</p>
+
+	<button>Remove all p elements with class="test"</button>
+
+
+</body>
+</html>

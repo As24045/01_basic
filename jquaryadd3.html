@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="d:/bootstrap/jquery.min.js"></script>
+	<script type="text/javascript">
+		function appendText() 
+		{
+			// var a="<p>text</p>";
+			// var b="<p>text</p>";
+			// var c="<p>text</p>";
+			// $("body").append(a,b,c);
+
+			var a="<p>text</p>";
+			var b="<p>text</p>";
+			var c="<p>text</p>";
+			$("img").after(a,b,c);
+		}
+	</script>
+</head>
+<body>
+	<img src="D:\css web\1212.jpg" alt="jQuery" width="100" height="140">
+	<p>This is a paragraph.</p>
+    <button onclick="appendText()">Append text</button>
+
+
+</body>
+</html>

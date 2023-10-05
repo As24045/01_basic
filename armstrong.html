@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsible factorial</title>
+	<link rel="stylesheet" type="text/css" href="d:/bootstrap/bootstrap.min.css">
+	<script src="d:/bootstrap/jquery.min.js"></script>
+	<script src="d:/bootstrap/bootstrap.min.js"></script>
+</head>
+<script type="text/javascript">
+	// function cal() 
+	// {
+	// 	var n = parseInt(document.getElementById('num').value);
+	// 	var count = 0;
+	// 	var rem = 0;
+	// 	var a=0;
+	// 	var n1 = n;
+	// 	var n2 = n;
+	
+	// 	while(n>0)
+	// 	{
+	// 		n = parseInt(n/10);
+	// 		count = count + 1;
+	// 	}
+	// 	// alert(count)
+
+	// 	while(n1>0)
+	// 	{
+	// 		rem = parseInt(n1%10);
+	// 		n1 = parseInt(n1/10);
+	// 		a = a + rem**count;
+	// 	}
+	// 	// document.write(count)
+
+	// 	if(n2==a)
+	// 	{
+	// 		document.getElementById('an').value = "Armstrong Number";
+	// 	}
+	// 	else
+	// 	{
+	// 		document.getElementById('an').value = "Not Armstrong Number";
+	// 	}
+	// }
+
+
+	var i=153;
+	var count=0;
+	var rem=0;
+	var a=0;
+	var n1=i;
+	var n2=i;
+
+	while(i>0)
+	{
+		i=parseInt(i/10);
+		count=count+1;
+	}
+
+	while(n1>0)
+	{
+		rem=parseInt(n1%10);
+		n1=parseInt(n1/10);
+		a=a+rem**count;
+	}
+	if (n2==a) 
+	{
+		document.write("Armstrong")
+	}
+	else
+	{
+		document.write("Not Armstrong")
+	}
+
+
+
+
+</script>
+
+<!-- <body>
+	<div class="container">
+		<h2>Armstrong Number Check</h2>
+		<div class="form-group">
+			<label>Number :</label>
+			<input type="text" name="num" id="num" class="form-control">
+		</div>
+		<div>
+			<button class="btn btn-success" onclick="cal()">calculate :</button>
+		</div>
+		<div class="form-group">
+			<label>Answer :</label>
+			<input type="text" name="an" id="an" class="form-control">
+		</div>
+	</div> -->
+
+</body>
+</html>
